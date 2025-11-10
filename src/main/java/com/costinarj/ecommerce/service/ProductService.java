@@ -2,7 +2,7 @@ package com.costinarj.ecommerce.service;
 
 import com.costinarj.ecommerce.entity.Product;
 import com.costinarj.ecommerce.repository.ProductRepository;
-import jakarta.annotation.PostConstruct;
+import javax.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

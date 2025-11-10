@@ -18,12 +18,10 @@ class ProductCsvParserTest {
         
         // Given
         ProductCsvParser parser = new ProductCsvParser();
-        String csvContent = """
-                sku,name,stockQuantity
-                ABC123,Wireless Mouse,10
-                XYZ999,Keyboard,5
-                """;
-        
+        String csvContent = "sku,name,stockQuantity\n" +
+                "ABC123,Wireless Mouse,10\n" +
+                "XYZ999,Keyboard,5\n";
+
         Path csvFile = tempDir.resolve("test_products.csv");
         Files.writeString(csvFile, csvContent);
 
