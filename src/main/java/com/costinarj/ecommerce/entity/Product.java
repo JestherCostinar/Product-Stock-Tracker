@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 /**
- * The <code>Product</code> class holds the product details. It is mapped to the products table in the database.
+ * The {@code Product} class holds the product details. It is mapped to the products table in the database.
  */
 @Entity
 @Table(name = "products")
